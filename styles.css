@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+input[type="color"] {
+    margin: 0 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#gradientCode {
+    margin-top: 20px;
+    font-size: 18px;
+}
